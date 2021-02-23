@@ -1,0 +1,36 @@
+Undefined command: "ls".  Try "help".
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555555218 in swap at callbyreference.c:20
+2       breakpoint     keep y   0x00005555555551be in main at callbyreference.c:13
+3       breakpoint     keep y   0x0000555555555184 in main at callbyreference.c:6
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x0000555555555184 in main at callbyreference.c:6
+	breakpoint already hit 1 time
+5       breakpoint     keep y   0x0000555555555192 in main at callbyreference.c:9
+Undefined command: "ls".  Try "help".
+Undefined command: "ls".  Try "help".
+Continuing.
+
+Breakpoint 5, main () at callbyreference.c:9
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555555218 in swap at callbyreference.c:20
+2       breakpoint     keep y   0x00005555555551be in main at callbyreference.c:13
+3       breakpoint     keep y   0x0000555555555184 in main at callbyreference.c:6
+	breakpoint already hit 1 time
+4       breakpoint     keep y   0x0000555555555184 in main at callbyreference.c:6
+	breakpoint already hit 1 time
+5       breakpoint     keep y   0x0000555555555192 in main at callbyreference.c:9
+	breakpoint already hit 1 time
+No symbol "i" in current context.
+$1 = 100
+__printf (format=0x555555556004 "Before swap, value of a : %d\n") at printf.c:28
+printf.c: No such file or directory.
+printf.c: No such file or directory.
+printf.c: No such file or directory.
+__vfprintf_internal (s=0x7ffff7fae6a0 <_IO_2_1_stdout_>, format=0x555555556004 "Before swap, value of a : %d\n", ap=ap@entry=0x7fffffffe350, 
+    mode_flags=mode_flags@entry=0) at vfprintf-internal.c:1289
+vfprintf-internal.c: No such file or directory.
+vfprintf-internal.c: No such file or directory.
+vfprintf-internal.c: No such file or directory.
+vfprintf-internal.c: No such file or directory.
+Undefined command: "stepout".  Try "help".
